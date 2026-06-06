@@ -1803,6 +1803,46 @@
 	height:auto;
 }
 
+.econ-pillars{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	gap:20px;
+	margin-top:15px;
+	padding:30px 15px;
+	background:rgba(0,0,0,.45);
+	border-radius:5px;
+}
+.econ-pillar{
+	flex:1 1 180px;
+	max-width:230px;
+	text-align:center;
+}
+.econ-pillar .econ-icon{
+	height:80px;
+	width:80px;
+	margin:0 auto 18px;
+	border-radius:50%;
+	background:#292929;
+	box-shadow: 0 2px 7px rgba(0,0,0,.4);
+}
+.econ-pillar .econ-icon .font-icon{
+	display:block;
+	font-family: 'FontAwesome';
+	color: #EC572C;
+	font-size:34px;
+	line-height:80px;
+	text-align:center;
+}
+.econ-pillar h6{
+	color:#fff;
+	margin-bottom:8px;
+}
+.econ-pillar p{
+	font-size:13px;
+	line-height:1.4;
+}
+
 
 
 
